@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 45%;
+    border: 3px solid grey;
+    border-radius: 50px;
+
+}
+
+.logo img:hover{
+    width: 45%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+
+.nav-list{
+    width: 74%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 28px 32px;
+}
+
+.nav-list li a{
+     text-decoration: none;
+     color: aliceblue;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+
+
+.rightnav{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(132, 0, 255);
+    text-align: right;
+    padding: 5 -30px;
+    
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: black;
+}
+
+#search{
+    padding: 8px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    position: sticky;
+}
+
+
+.firstsection{
+    background: rgba(0, 0, 0, 0.8) url("..img/bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 42vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firsthalf{
+    width: 50%;
+    display:grid;
+    justify-content: center ;
+}
+
+.secondhalf{
+    width: 30%;
+    
+}
+
+.secondhalf img{
+    border: 4px solid white;
+    
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid whitesmoke;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm{
+    padding: 10px 30px;
+    background-color: darkblue;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.women1{
+    background: rgba(53, 244, 211) url("ethnic.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 70vh;
+}
+
+.women-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firsthalfwomen{
+    padding: 10px 80px;
+    width: 40%;
+    display:grid;
+    justify-content:left ;
+}
+
+
+.firsthalfwomen img{
+    border: 4px solid white;
+    
+}
+
+.secondhalfwomen{
+    width: 30%;
+    
+}
+
+.btnw{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background:rgb(255, 0, 234);
+    color: rgb(56, 55, 55);
+    cursor: pointer;
+}
+
+
+
+
+
+.mix{
+    background: rgb(5, 0, 26) url("ethnic.png");
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+
+
+
+
+.mix-box{
+    display: flex;
+}
+
+.secondhalfmixwear{
+    padding-top: 2%;
+    padding-left: 8%;
+    width: 25%;
+}
+
+.utilities{
+    size-adjust: 20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
